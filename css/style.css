@@ -1,0 +1,47 @@
+body {
+    background-image: url();
+}
+
+.toggle {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button {
+    border-radius: 50% important;
+    font-size: 1.5em;
+    background-color: lightgray;
+}
+
+#switches {
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    margin-left: 26px;
+    margin-right: 110px;
+}
+
+.text2 {
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    margin-left: 83px;
+    margin-right: 142px;
+}
+
+.text1 {
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    margin-left: 19px;
+    margin-right: 142px;
+}
+
+.text1 span:last-child {
+    padding-left: 70px;
+}
+
+.text1 {
+    position: absolute;
+    font-family: 'Original Surfer', curesice;
+    margin-left: 83px;
+    margin-right: 142px;
+}
+
