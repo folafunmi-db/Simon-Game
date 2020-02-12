@@ -23,10 +23,20 @@ const onButton = document.querySelector("#on");
 const startButton = document.querySelector("#start");
 
 //stating an arrow function in js
-strictButton.addEventListener("change", event => {
+strictButton.addEventListener("click", (event) => {
   if (strictButton.checked == true) {
     strict = ture;
   } else {
     strict = false;
   }
-});
+})
+
+onButton.addEventListener('click', (event) => {
+	if (onButton.checked == true) {
+		on = true;
+		turnCounter.innerHTML = "-";
+	} else {
+		on = false;
+		turnCounter.innerHTML = "";
+	}
+})
