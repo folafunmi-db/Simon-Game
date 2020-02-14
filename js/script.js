@@ -76,7 +76,7 @@ function gameTurn() {
 	//if the computer is done flashing all the lights
 	clearInterval(intervalId);
 	compTurn = false;
-	clearColor;
+	clearColor();
 	on = true;
 	}
 
