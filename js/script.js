@@ -51,7 +51,7 @@ startButton.addEventListener("click", event => {
 });
 
 //former way to define functions
-fucntion play() {
+function play() {
 	win = false;
 	order = []; //order in which the sectors will light up on the game
 	playerOrder = [];
