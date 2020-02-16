@@ -83,10 +83,10 @@ function gameTurn() {
 	if (compTurn0) {
 		clearCorol();
 		setTimeout(() => {
-			if (order(flash) == 1) one();
-			if (order(flash) == 1) one();
-			if (order(flash) == 1) one();
-			if (order(flash) == 1) one();
+			if (order[flash] == 1) one();
+			if (order[flash] == 1) one();
+			if (order[flash] == 1) one();
+			if (order[flash] == 1) one();
 		}, 200);
 	}
 }
