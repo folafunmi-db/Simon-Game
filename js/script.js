@@ -80,13 +80,50 @@ function gameTurn() {
 	on = true;
 	}
 
-	if (compTurn0) {
-		clearCorol();
+	if (compTurn) {
+		clearColor();
 		setTimeout(() => {
 			if (order[flash] == 1) one();
-			if (order[flash] == 1) one();
-			if (order[flash] == 1) one();
-			if (order[flash] == 1) one();
+			if (order[flash] == 2) two();
+			if (order[flash] == 3) three();
+			if (order[flash] == 4) four();
+			flash++;
 		}, 200);
 	}
+}
+
+function one() {
+	if (noise) {
+		let audio = document.getElementById("clip1");
+		audio.play();
+	}
+	noise = true;
+	topLeft.style.backgroundColor = "Lightgreeen";
+}
+
+function two() {
+	if (noise) {
+		let audio = document.getElementById("clip2");
+		audio.play();
+	}
+	noise = true;
+	topLeft.style.backgroundColor = "tomato";
+}
+
+function three() {
+	if (noise) {
+		let audio = document.getElementById("clip3");
+		audio.play();
+	}
+	noise = true;
+	topLeft.style.backgroundColor = "Yellow";
+}
+
+function four() {
+	if (noise) {
+		let audio = document.getElementById("clip4");
+		audio.play();
+	}
+	noise = true;
+	topLeft.style.backgroundColor = "Lightskyblue";
 }
